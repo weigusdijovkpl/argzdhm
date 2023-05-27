@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # 设置各变量
-WSPATH=${WSPATH:-'de6f4448-4c5a-4b29-93f7-9de738fe4ecc'}
-UUID=${UUID:-'de6f4448-4c5a-4b29-93f7-9de738fe4ecc'}
+WSPATH=${WSPATH:-'92b26bb6-ac9b-4d6f-93de-d29af6599a17'}
+UUID=${UUID:-'92b26bb6-ac9b-4d6f-93de-d29af6599a17'}
 
 generate_config() {
   cat > config.json << EOF
