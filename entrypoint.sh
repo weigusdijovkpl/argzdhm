@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # 设置各变量
-WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+WSPATH=${WSPATH:-'de6f4448-4c5a-4b29-93f7-9de738fe4ecc'}
+UUID=${UUID:-'de6f4448-4c5a-4b29-93f7-9de738fe4ecc'}
 
 generate_config() {
   cat > config.json << EOF
@@ -88,7 +88,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls"
@@ -115,7 +115,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls"
@@ -142,7 +142,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls"
@@ -170,7 +170,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls"
